@@ -8,7 +8,7 @@ import java.sql.SQLException;
 /** Opens SQLite connections and prepares the schema. */
 public class DatabaseConnection {
 
-    private static final String URL = "jdbc:sqlite:scenario.db";
+    private static final String URL = "jdbc:sqlite:Hotel_Reservation.db";
 
     private static final String PRAGMA_SQL = "PRAGMA foreign_keys = ON;";
 
